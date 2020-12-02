@@ -16,6 +16,13 @@ public class SimpleCalculator {
 	public static final void main(String[] args) {
 		System.out.println("Hey there CIS350.");
 }
+    public int sqrt(int a) {
+        return (int) Math.sqrt(a); 
+                                }
+        
+    public int pow(int a) {
+        return (int) Math.pow(a, 2);
+                                        }
 	
 }
 
